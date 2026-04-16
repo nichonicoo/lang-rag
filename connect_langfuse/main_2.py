@@ -10,8 +10,8 @@ from LLM.qwen import chat
 
 # ✅ INIT LANGFUSE SEKALI SAJA
 langfuse = Langfuse(
-    public_key= "pk-lf-35c24d76-1129-4cbe-a528-ba4a53e7d7b4",
-    secret_key= "sk-lf-e3681d2e-3661-4aab-8092-ad2f688573c8",
+    public_key= "",
+    secret_key= "",
     host= "https://cloud.langfuse.com"
 )
 
