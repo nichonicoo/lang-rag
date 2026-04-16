@@ -1,68 +1,87 @@
 === INFOBOX ===
 
-Jawi
+Transkripsi Bahasa Daerah: 
+    Jawi:نوسا تڠݢرا بارات 
+    Sasak: ᬦᬸᬲᬢᭂᬗ᭄ᬕᬭᬩᬭᬢ᭄
+    Mbojo: ᨊᨘᨔ ᨈᨙᨂᨁᨑ ᨅᨑᨈ
 
-Sasak
+Negara: Indonesia
 
-Mbojo
+Dasar hukum pendirian: UU No. 64 Tahun 1958
 
-Negara
+Hari jadi: 17 Desember 1958
 
-Dasar hukum pendirian
+Ibu kota: Kota Mataram
 
-Hari jadi
+Kota besar lainnya: Kota Bima
 
-Ibu kota
+Jumlah satuan pemerintahan: Kabupaten: 8
+                            Kota: 2
+                            Kecamatan: 117
+                            Kelurahan: 145
+                            Desa: 998
 
-Kota besar lainnya
+Gubernur: Lalu Muhamad Iqbal
 
-Jumlah satuan pemerintahan
+Wakil Gubernur: Indah Dhamayanti Putri
 
-Gubernur
+Sekretaris Daerah: Lalu Gita Ariadi
 
-Wakil Gubernur
+Ketua DPRD: Baiq Isvie Rupaeda
 
-Sekretaris Daerah
+Luas Total: 20.124,48 km2 (7,770,11 sq mi)
 
-Ketua DPRD
+Total Populasi: 5.666.314  (30 Juni 2024)
+Total Kepadatan: 280/km2 (730/sq mi) (30 Juni 2024)
 
-Total
+Agama:96,89% Islam
+        2,38% Hindu
+        0,43% Kekristenan
+        0,25% Protestan
+        0,18% Katolik
+        0,30% Buddha
 
-Kepadatan
+Bahasa: Indonesia (resmi)
+Sasak (dominan), Sumbawa, Bima/Mbojo, Bali, lainnya
 
-Agama
+IPM: Kenaikan 72,37 (2023)
+tinggi[2]
 
-Bahasa
+Zona waktu: UTC+08:00 (WITA)
 
-IPM
+Kode pos: 83xxx-84xxx
 
-Zona waktu
+Kode area telepon: 0364 - Kota Mataram
+0370 - Mataram, Praya
+0371 - Sumbawa
+0372 - Alas, Taliwang
+0373 - Dompu
+0374 - Bima
+0376 - Selong
 
-Kode pos
+Kode ISO 3166: ID-NB
 
-Kode area telepon
+Pelat kendaraan: DR (Lombok dsk.)
+EA (Sumbawa dsk.)
 
-Kode ISO 3166
+Kode Kemendagri: 52
 
-Pelat kendaraan
+Kode BPS: 52
 
-Kode Kemendagri
+DAU: Rp 1.641.178.248.000,- (2020)
 
-Kode BPS
+Lagu daerah: Kadal Nongak
+Teluk Saleh
 
-DAU
+Rumah adat: Bale Sasaq (Lombok)Rumah Dalam Loka Samawa (Sumbawa)
 
-Lagu daerah
+Senjata tradisional: KerisTulupJungkat
 
-Rumah adat
+Flora resmi: Ajan kelicung
 
-Senjata tradisional
+Fauna resmi: Rusa Timor
 
-Flora resmi
-
-Fauna resmi
-
-Situs web
+Situs web: 	ntbprov.go.id
 
 
 === intro ===

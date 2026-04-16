@@ -9,7 +9,6 @@ last_updated: 2025
 === METADATA_PROVINSI ===
 
 Nama: Danau Toba
-Pemilik: Nicholas Terrence Salim
 Negara: Indonesia
 Provinsi: Sumatera Utara
 Jenis Danau: Danau vulkanik/tektonik

@@ -5,6 +5,9 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from LLM.qwen import chat # Mengambil fungsi chat dari file qwen.py Anda
 
+# os.environ['TRANSFORMERS_OFFLINE'] = '1'
+# os.environ['HF_DATASETS_OFFLINE'] = '1'
+
 # 1. SETUP PEMBACAAN DOKUMEN
 print("Membaca dokumen dari folder documents...")
 # Menggunakan DirectoryLoader untuk membaca semua file .txt di folder documents
@@ -24,7 +27,7 @@ vector_db = Chroma.from_documents(chunks, embeddings)
 
 def tanya_wisata(query):
     # 4. RETRIEVAL: Cari potongan teks paling relevan
-    relevant_docs = vector_db.similarity_search(query, k=3)
+    relevant_docs = vector_db.similarity_search(query, k=4)
     context = "\n\n".join([doc.page_content for doc in relevant_docs])
     
     print('context: ', context)
@@ -49,6 +52,6 @@ JAWABAN:"""
 
 # Contoh Penggunaan
 if __name__ == "__main__":
-    pertanyaan = "Siapa Pemilik Danau Toba?"
+    pertanyaan = "arca dhyani buddha ada apa aja?"
     jawaban = tanya_wisata(pertanyaan)
     print(f"\nQwen menjawab:\n{jawaban}")
