@@ -12,9 +12,9 @@ from LLM.qwen import chat
 
 # 1. INIT LANGFUSE
 langfuse = Langfuse(
-    public_key="",
-    secret_key="",
-    host="https://cloud.langfuse.com"
+    public_key= "pk-lf-35c24d76-1129-4cbe-a528-ba4a53e7d7b4",
+    secret_key= "sk-lf-e3681d2e-3661-4aab-8092-ad2f688573c8",
+    host= "https://cloud.langfuse.com"
 )
 
 DB_PATH = "../chroma_db_wisata"
@@ -59,13 +59,14 @@ vector_db = inisialisasi_rag()
 def tanya_wisata_langfuse(query):
 
     # retrieval + score
-    results = vector_db.similarity_search_with_score(query, k=4)
+    # results = vector_db.similarity_search_with_score(query, k=4)
+    results = vector_db.similarity_search_with_score(query, k=10) # test for add reranker
 
     if not results:
         context = ""
     else:
         context = "\n\n".join([doc.page_content for doc, _ in results])
-
+    
     # update trace
     langfuse.update_current_span(
         name="RAG_Pariwisata",
@@ -155,7 +156,7 @@ def jalankan_uji_coba_dataset(dataset_name):
     # run experiment
     result = dataset.run_experiment(
         name="Qwen-RAG-Evaluation",
-        run_name="Run-BGE-M2-Test1", # nama untuk current session
+        run_name="Run-BGE-M2-Test2", # nama untuk current session
         description="Evaluasi akurasi RAG pariwisata menggunakan Qwen",
         task=task_wisata,
         evaluators=[accuracy_evaluator],

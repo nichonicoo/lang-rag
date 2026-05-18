@@ -1,0 +1,309 @@
+= General 
+
+You are a dataset generator for training a travel assistant AI.
+
+Generate 60 high-quality dataset entries for the destination: Labuan Bajo
+
+Focus ONLY on this intent:
+Focus on general knowledge about Labuan Bajo
+Include:
+
+overview
+uniqueness
+culture
+environment
+what makes it special
+
+LANGUAGE DISTRIBUTION:
+- 70% Indonesian (casual + semi-formal)
+- 20% English
+- 10% mixed Indonesian-English (natural, not forced)
+
+STYLE REQUIREMENTS:
+
+Use natural but professional language
+Avoid overly casual expressions
+Keep queries realistic but well-structured
+
+CONTENT REQUIREMENTS:
+- Include realistic constraints:
+  - budget (low, medium, high)
+  - time (1 day, 2D1N, 3D2N, etc.)
+  - traveler type (solo, couple, family, group)
+- Avoid repetitive phrasing
+- Make each query unique
+
+ANSWER REQUIREMENTS:
+- Helpful and actionable
+- Specific (not generic)
+- Natural and conversational
+- Not too short, not too long
+
+OUTPUT FORMAT (STRICT JSONL, NO EXPLANATION):
+{"input": "...", "output": "..."}
+
+= ITENERARY 
+
+You are a dataset generator for training a travel assistant AI.
+
+Generate 70 high-quality dataset entries for the destination: Labuan Bajo
+
+Focus ONLY on this intent:
+Focus on itinerary planning.
+Include:
+
+1 day, 2D1N, 3D2N, 5D4N
+santai vs padat
+family, couple, solo
+different traveller type
+realistic travel flow
+
+LANGUAGE DISTRIBUTION:
+- 70% Indonesian (casual + semi-formal)
+- 20% English
+- 10% mixed Indonesian-English (natural, not forced)
+
+STYLE REQUIREMENTS:
+
+Use natural but professional language
+Avoid overly casual expressions
+Keep queries realistic but well-structured
+
+CONTENT REQUIREMENTS:
+- Include realistic constraints:
+  - budget (low, medium, high)
+  - time (1 day, 2D1N, 3D2N, etc.)
+  - traveler type (solo, couple, family, group)
+- Avoid repetitive phrasing
+- Make each query unique
+
+ANSWER REQUIREMENTS:
+- Helpful and actionable
+- Specific (not generic)
+- Natural and conversational
+- Not too short, not too long
+
+OUTPUT FORMAT (STRICT JSONL, NO EXPLANATION):
+{"input": "...", "output": "..."}
+
+= BUDGET 
+
+You are a dataset generator for training a travel assistant AI.
+
+Generate 60 high-quality dataset entries for the destination: Labuan Bajo
+
+Focus ONLY on this intent:
+Focus on travel cost planning.
+
+Include:
+
+* low budget (<1 juta)
+* mid budget
+* high budget
+* breakdown transport + hot
+
+LANGUAGE DISTRIBUTION:
+- 70% Indonesian (casual + semi-formal)
+- 20% English
+- 10% mixed Indonesian-English (natural, not forced)
+
+STYLE REQUIREMENTS:
+
+Use natural but professional language
+Avoid overly casual expressions
+Keep queries realistic but well-structured
+
+CONTENT REQUIREMENTS:
+- Include realistic constraints:
+  - budget (low, medium, high)
+  - time (1 day, 2D1N, 3D2N, etc.)
+  - traveler type (solo, couple, family, group)
+- Avoid repetitive phrasing
+- Make each query unique
+
+ANSWER REQUIREMENTS:
+- Helpful and actionable
+- Specific (not generic)
+- Natural and conversational
+- Not too short, not too long
+
+OUTPUT FORMAT (STRICT JSONL, NO EXPLANATION):
+{"input": "...", "output": "..."}
+
+= TRANSPORT 
+
+You are a dataset generator for training a travel assistant AI.
+
+Generate 60 high-quality dataset entries for the destination: Labuan Bajo
+
+Focus ONLY on this intent:
+Focus on transportation.
+
+Include:
+
+* from major cities (Jakarta, Medan, Bali)
+* public transport vs rental
+* travel time
+* practical tip
+
+LANGUAGE DISTRIBUTION:
+- 70% Indonesian (casual + semi-formal)
+- 20% English
+- 10% mixed Indonesian-English (natural, not forced)
+
+STYLE REQUIREMENTS:
+
+Use natural but professional language
+Avoid overly casual expressions
+Keep queries realistic but well-structured
+
+CONTENT REQUIREMENTS:
+- Include realistic constraints:
+  - budget (low, medium, high)
+  - time (1 day, 2D1N, 3D2N, etc.)
+  - traveler type (solo, couple, family, group)
+- Avoid repetitive phrasing
+- Make each query unique
+
+ANSWER REQUIREMENTS:
+- Helpful and actionable
+- Specific (not generic)
+- Natural and conversational
+- Not too short, not too long
+
+OUTPUT FORMAT (STRICT JSONL, NO EXPLANATION):
+{"input": "...", "output": "..."}
+
+= ACTIVITIES 
+
+You are a dataset generator for training a travel assistant AI.
+
+Generate 60 high-quality dataset entries for the destination: Labuan Bajo
+
+Focus ONLY on this intent:
+Focus on things to do.
+
+Include:
+
+* nature
+* culture
+* food
+* hidden gems
+* relaxing vs adventure activities
+
+LANGUAGE DISTRIBUTION:
+- 70% Indonesian (casual + semi-formal)
+- 20% English
+- 10% mixed Indonesian-English (natural, not forced)
+
+STYLE REQUIREMENTS:
+
+Use natural but professional language
+Avoid overly casual expressions
+Keep queries realistic but well-structured
+
+CONTENT REQUIREMENTS:
+- Include realistic constraints:
+  - budget (low, medium, high)
+  - time (1 day, 2D1N, 3D2N, etc.)
+  - traveler type (solo, couple, family, group)
+- Avoid repetitive phrasing
+- Make each query unique
+
+ANSWER REQUIREMENTS:
+- Helpful and actionable
+- Specific (not generic)
+- Natural and conversational
+- Not too short, not too long
+
+OUTPUT FORMAT (STRICT JSONL, NO EXPLANATION):
+{"input": "...", "output": "..."}
+
+= COMPARISON 
+
+You are a dataset generator for training a travel assistant AI.
+
+Generate 45 high-quality dataset entries for the destination: Labuan Bajo
+
+Focus ONLY on this intent:
+Focus on comparison.
+
+Include:
+
+* compare with other destinations (Bali, Labuan Bajo, etc.)
+* pros and cons
+* budget differences
+* experience differences
+
+LANGUAGE DISTRIBUTION:
+- 70% Indonesian (casual + semi-formal)
+- 20% English
+- 10% mixed Indonesian-English (natural, not forced)
+
+STYLE REQUIREMENTS:
+
+Use natural but professional language
+Avoid overly casual expressions
+Keep queries realistic but well-structured
+
+CONTENT REQUIREMENTS:
+- Include realistic constraints:
+  - budget (low, medium, high)
+  - time (1 day, 2D1N, 3D2N, etc.)
+  - traveler type (solo, couple, family, group)
+- Avoid repetitive phrasing
+- Make each query unique
+
+ANSWER REQUIREMENTS:
+- Helpful and actionable
+- Specific (not generic)
+- Natural and conversational
+- Not too short, not too long
+
+OUTPUT FORMAT (STRICT JSONL, NO EXPLANATION):
+{"input": "...", "output": "..."}
+
+= PERSONA 
+
+You are a dataset generator for training a travel assistant AI.
+
+Generate 45 high-quality dataset entries for the destination: Labuan Bajo
+
+Focus ONLY on this intent:
+Focus on traveler types.
+
+Include:
+
+* solo traveler
+* family
+* honeymoon
+* backpacker
+* elder
+
+LANGUAGE DISTRIBUTION:
+- 70% Indonesian (casual + semi-formal)
+- 20% English
+- 10% mixed Indonesian-English (natural, not forced)
+
+STYLE REQUIREMENTS:
+
+Use natural but professional language
+Avoid overly casual expressions
+Keep queries realistic but well-structured
+
+CONTENT REQUIREMENTS:
+- Include realistic constraints:
+  - budget (low, medium, high)
+  - time (1 day, 2D1N, 3D2N, etc.)
+  - traveler type (solo, couple, family, group)
+- Avoid repetitive phrasing
+- Make each query unique
+
+ANSWER REQUIREMENTS:
+- Helpful and actionable
+- Specific (not generic)
+- Natural and conversational
+- Not too short, not too long
+
+OUTPUT FORMAT (STRICT JSONL, NO EXPLANATION):
+{"input": "...", "output": "..."}
